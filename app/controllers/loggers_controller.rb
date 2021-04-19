@@ -7,7 +7,7 @@ class LoggersController < ApplicationController
     payload = request.body.read
 
     response = HTTParty.put(
-      'https://client-logs-dev.gimbal.com/log/626/asdf',
+      'https://client-logs-dev.gimbal.com/log/626/web-sdk-test',
       :body => payload,
       :headers => {
         'Content-Type' => 'text/plain',
