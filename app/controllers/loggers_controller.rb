@@ -1,8 +1,5 @@
 class LoggersController < ApplicationController
   def index
-    puts "lalalala"
-    puts Rails.application.credentials.client_logs_dev_token
-
     render json: 'ok', status: 200
   end
 
